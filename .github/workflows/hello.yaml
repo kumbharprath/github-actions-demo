@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        run: echo "Hello world"
-        run: pwd
-        run: touch demo.py
-        run: ls
+        - run: echo "Hello world"
+        - run: pwd
+        - run: touch demo.py
+        - run: ls
