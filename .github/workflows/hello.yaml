@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print message
         run: echo "Hello world"
         run: pwd
         run: touch demo.py
